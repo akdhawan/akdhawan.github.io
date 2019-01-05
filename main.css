@@ -263,7 +263,7 @@ body, html{
 
 .skills{
 	background-color: #d3d3d3;
-	height:550px;
+	height:63vh;
 }
 
 .skillTitle{
@@ -302,146 +302,119 @@ body, html{
 }
 
 .container {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px:;
-  //height: 200px;
-  float:right;
-  top: 10px;
-  right:85%;
+  	float:right;
+  	top: 10px;
+  	right:85%;
 }
 
 .container2 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 10px;
-  right:60%;
+  	float:right;
+  	top: 10px;
+  	right:60%;
 }
 
 .container3 {
-  position: relative;
+ 	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 10px;
-  right:35%;
+  	float:right;
+  	top: 10px;
+  	right:35%;
 }
 
 .container4 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 10px;
-  right:10%;
+  	float:right;
+  	top: 10px;
+  	right:10%;
 }
 
 .container5 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 10px;
-  right:-15%;
+  	float:right;
+  	top: 10px;
+  	right:-15%;
 }
 
 .container6 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 10px;
-  right:-40%;
+	float:right;
+	top: 10px;
+	right:-40%;
 }
 
 .container7 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 10px;
-  right:-65%;
+  	float:right;
+  	top: 10px;
+  	right:-65%;
 }
 
 .container8 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 32vh;
-  right:-5vw;
+  	float:right;
+ 	right:-5%;
+  	top: 32vh;
 }
 
 .container9 {
-  position: relative;
+ 	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 70px;
-  right: 64.3%;
-  //right: 65.2%;
+  	float:right;
+  	top: 9vh;
+  	right: 64.3%;
 }
 
 .container10 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 70px;
-  right: 39.7%;
+  	float:right;
+	top: 9vh;
+  	right: 39.7%;
 }
 
 .container11 {
-  position: relative;
+ 	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 70px;
-  right: 15%;
+  	float:right;
+  	top: 9vh;
+  	right: 15%;
 }
 
 .container12 {
-  position: relative;
+  	position: relative;
   	width:11.8vw;
 	height:23.5vh;
-  //width: 200px;
-  //height:200px;
-  float:right;
-  top: 70px;
-  right: -9.8%;
+	float:right;
+	top:9vh;
+	right: -9.8%;
 }
 
 .container13{
 	position:relative;
-		width:11.8vw;
+	width:11.8vw;
 	height:23.5vh;
-	//width: 200px; 
-	//height:200px;
 	float:right;
-	top:70px;
+	top:9vh;
 	right:-35%;
 }
 
