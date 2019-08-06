@@ -1,292 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		 <meta charset="UTF-8">
- 		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 		 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Arjun Dhawan</title>
-		<link rel="stylesheet" href="main.css">
-		<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Bevan|Biryani:900|Montserrat:400,900" rel="stylesheet">
-		<script src="mainJS.js"></script>
-	</head>
-
-	<body>
-		<div class="topnav">
+<head>
+<meta charset="utf-8">
+  <title>Arjun Dhawan Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Arjun Dhawan">
+  <meta name="description" content="Arjun Dhawan Personal Website">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar" id="top">
+	<img src="images/Logo.png" alt="logo" class="arjunLogo"> 
+    <div class="inner">
 			<a class="active" href="index.html">Home</a>
-			<a href="projects.html">Projects</a>
-			<a href="mailto:akdhawan@stanford.edu">Contact</a>
 			<a href="#aboutMe">About</a>
+			<a href="projects.html">Projects</a>
 			<a href="Resume/Arjun_Final_Resume.pdf">Resume</a>
+			<a href="mailto:akdhawan@stanford.edu">Contact</a>
+    </div>
+  </nav>
+  <div class="mainPage">
+		  <div class="container">
+			  <h1> Hi, I am Arjun Dhawan </h1>
+			  <h3> I love to code</h3>
+			  <h4> The following is a brief overview of my past projects and experiences. Feel free to conact me if you have questions, ideas, or opportunities. </h4>
 		</div>
-
-		<div id="home" class="img1">
-
-			<h1 class="title">Hello,<div>I'm Arjun Dhawan</div></h1>	
-
-			<div class="typeHeader">
-				I Love to
-			</div>
-
-			<h1 class="typing">
-			  <a class="typewrite" data-period="2000" data-type='[ "Build.", "Create.", "Prototype.", "Code." ]'>
-			    <span class="wrap"></span>
-			  </a>
-			</h1>
-			<a href="https://github.com/akdhawan" class ="links github">
-				<img src="images/github.png" class="links github" alt="Github Profile">
-			</a>
-			<a href="https://www.linkedin.com/in/arjunkdhawan/" class ="links linkedin">
-				<img src="images/linkedin.png" class="links linkedin" alt="LinkedIn Profile">
-			</a>
-		</div>
-
-		<section id="aboutMe">
-			<h1 class="aboutTitle">About Me</h1>
-			<p class="aboutDescription">
-				I am an undergraduate student at Stanford University studying Electrical and Mechanical Engineering. I have worked successfully in multidisciplinary teams towards developing innovative products and would love to continue doing so. I am currently in the Hardware and Software track of Electrical Engineering and am proficient working with both the software and hardware of a system. I love to learn new things, build things with my hands, and rapidly prototype.
-			</p>			
-			<img src="images/Arjun_Profile_Picture.jpg" class="profilePicture" alt="Arjun Profile Picture">
-		</section>
-
-		<div class="img1 short-image"></div>
-
-		<div class="img1 short-image">
-			<div class="wrap">
-				<div id="arrow-left" class="arrow"></div>
-				<div id="slider">
-
-					<a href="projects.html#ME102" style="text-decoration:none">
-						<div class="slide slide1">
-							<div class="slide-content">
-								<span>Mechanical Selector</span>
-							</div>	
-						</div>
-					</a>
-
-					<a href="projects.html#Rubiks" style="text-decoration:none">
-						<div class="slide slide2">
-							<div class="slide-content">
-								<span>Rubiks Cube Solver</span>
-							</div>	
-						</div>
-					</a>
-
-					<a href="projects.html#ObjectRecognition" style="text-decoration:none">
-						<div class="slide slide3">
-							<div class="slide-content">
-								<span>Object Recognition for the Visually Impaired</span>
-							</div>	
-						</div>
-					</a>
-
-					<a href="projects.html#DistractedDriving" style="text-decoration:none">
-						<div class="slide slide4">
-							<div class="slide-content">
-								<span>Distracted Driving Analyzer</span>
-							</div>	
-						</div>
-					</a>
-
-					<a href="projects.html#Azeotrope" style="text-decoration:none">
-						<div class="slide slide5">
-							<div class="slide-content">
-								<span>Breaking an Azeotrope</span>
-							</div>	
-						</div>
-					</a>
-
-					<a href="projects.html#ReinventingWheel" style="text-decoration:none">
-						<div class="slide slide6">
-							<div class="slide-content">
-								<span>Reinventing the Wheel</span>
-							</div>	
-						</div>
-					</a>
-
-					<a href="projects.html#WalkingSensors" style="text-decoration:none">
-						<div class="slide slide7">
-							<div class="slide-content">
-								<span>Walking with Sensors</span>
-							</div>	
-						</div>
-					</a>
-
-				</div>
-				<div id="arrow-right" class="arrow"></div>
-			</div>
-		</div>
-
-		<div class="img1 short-image"></div>
-
-
-		<div class="skills">
-			<div class="skillTitle">Skills</div>
-
-			<div class="container">
-				<img src="images/Skills/Ansyss.jpg" class="skillImage firstRow ansyss" alt="ansyss">
-				<div class="overlay firstRow ansyss">
-					<div class="titleSkill">Ansyss</div>
-				</div>
-			</div>
-
-			<div class="container2">
-				<img src="images/Skills/Arduino.jpeg" class="skillImage firstRow arduino" alt="arduino">
-				<div class="overlay firstRow arduino">
-					<div class="titleSkill">Arduino</div>
-				</div>
-			</div>
-
-			<div class="container3">
-				<img src="images/Skills/C.png" class="skillImage firstRow c" alt="c">
-				<div class="overlay firstRow c">
-					<div class="titleSkill">C</div>
-				</div>
-			</div>	
-
-			<div class="container4">
-				<img src="images/Skills/C++.png" class="skillImage firstRow cplusplus" alt="cplusplus">
-				<div class="overlay firstRow cplusplus">
-					<div class="titleSkill">C++</div>
-				</div>
-			</div>	
-			
-			<div class="container5">		
-				<img src="images/Skills/I2c.jpeg" class="skillImage firstRow i2c" alt="i2c">
-				<div class="overlay firstRow i2c">
-					<div class="titleSkill">i2c</div>
-				</div>
-			</div>	
-
-			<div class="container6">		
-				<img src="images/Skills/java.png" class="skillImage firstRow java" alt="java">
-				<div class="overlay firstRow java">
-					<div class="titleSkill">Java</div>
-				</div>
-			</div>	
-			
-			<div class="container7">				
-				<img src="images/Skills/Matlab.jpg" class="skillImage firstRow matlab" alt="matlab">
-				<div class="overlay firstRow matlab">
-					<div class="titleSkill">Matlab</div>
-				</div>
-			</div>
-			
-			<div class="container8">
-				<img src="images/Skills/Oscilloscope.jpeg" class="skillImage oscilloscope" alt="oscilloscope">
-				<div class="overlay oscilloscope">
-					<div class="titleSkill">Oscilloscope</div>
-				</div>
-			</div>
-			
-			<div class="container9">
-				<img src="images/Skills/Prototyping.jpeg" class="skillImage prototyping" alt="prototyping">
-				<div class="overlay prototyping">
-					<div class="titleSkill">Prototyping</div>
-				</div>
-			</div>	
-
-			<div class="container10">
-				<img src="images/Skills/RasPi.jpeg" class="skillImage raspi" alt="raspi">
-				<div class="overlay raspi">
-					<div class="titleSkill">Raspberry Pi</div>
-				</div>
-			</div>
-
-			<div class="container11">
-				<img src="images/Skills/Soldering.jpeg" class="skillImage soldering" alt="soldering">
-				<div class="overlay soldering">
-					<div class="titleSkill">Soldering</div>
-				</div>
-			</div>
-			
-			<div class="container12">			
-				<img src="images/Skills/Solidworks.png" class="skillImage solidworks" alt="solidworks">
-				<div class="overlay solidworks">
-					<div class="titleSkill">Solidworks</div>
-				</div>
-			</div>
-			
-			<div class="container13">			
-				<img src="images/Skills/SPI.jpeg" class="skillImage spi" alt="spi">
-				<div class="overlay spi">
-					<div class="titleSkill">SPI</div>
-				</div>
-			</div>
-
-			<br><br><br><br>
-		</div>
-
-
-		<div class="img2">
-			<div class = "quote">
-				<i>"If its worth doing, its worth doing well"</i>
-			</div>
-		</div>
-
-		<script>
-			let sliderImages = document.querySelectorAll(".slide"),
-			  arrowLeft = document.querySelector("#arrow-left"),
-			  arrowRight = document.querySelector("#arrow-right"),
-			  current = 0;
-
-			function reset() {
-			  for (let i = 0; i < sliderImages.length; i++) {
-			    sliderImages[i].style.display = "none";
-			  }
-			}
-
-			function startSlide() {
-			  reset();
-			  sliderImages[0].style.display = "block";
-			}
-
-			function slideLeft() {
-			  reset();
-			  sliderImages[current - 1].style.display = "block";
-			  current--;
-			}
-
-			function slideRight() {
-			  reset();
-			  sliderImages[current + 1].style.display = "block";
-			  current++;
-			}
-
-			arrowLeft.addEventListener("click", function() {
-			  if (current === 0) {
-			    current = sliderImages.length;
-			  }
-			  slideLeft();
-			});
-
-			arrowRight.addEventListener("click", function() {
-			  if (current === sliderImages.length - 1) {
-			    current = -1;
-			  }
-			  slideRight();
-			});
-
-			startSlide();
-		</script> 
-	</body>
+   </div>
+   <div style="height:1000px;background-color:red;font-size:36px">
+		Scroll Up and Down this page to see the parallax scrolling effect.
+		This div is just here to enable scrolling.
+		Tip: Try to remove the background-attachment property to remove the scrolling effect.
+	</div>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
