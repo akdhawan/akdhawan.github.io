@@ -27,6 +27,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -53,18 +55,18 @@ table {
 
 
 .mainPage {
-	background-image: url(images/Main_Background.jpeg);
+	background-image: url(images/Test_Background_Light.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
-
 	background-color: black;
 	top: 0;
 	left: 0;
+	min-width: 1000px;
+	min-height: 750px;
 }
-
 .navbar {
 	position: fixed;
 	width:100vw;
@@ -85,6 +87,7 @@ table {
 
 .inner {
 	padding-top: 9px;
+	margin-left: -50px;
 	display: inline-block;
 }
 
@@ -99,28 +102,141 @@ table {
 }
 
 .inner a:hover {
+	color: black;
 	background: rgba(203, 119, 82, 1);
 }
 
-.container {
-	position: relative;
+
+.introContainer {
+	top: 42px;
+	position: absolute;
 	width:100%;
 	height: 100%;
 	text-align: center;
 	background:transparent;
-	top:50%;
 	color: white;
-	font-family: 'Raleway', sans-serif;
-	margin-top: 0;
 }
 
-h1 {
-	font-weight: bold;
-	font-size: 50px;
+.introContainer span {
+	position: relative;
+	font-size: 350%;
 }
-  
-  /* For mobile devices */
-@media only screen and (max-width: 767px) {
-	body {
+
+.introContainer h1 {
+	position: absolute;
+	width: 70vw;
+	left: 50%;
+	margin-left: -35vw;
+	top:0;
+	margin-top: 9vh;
+	font-size: 230%;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.2;
+}
+
+.introContainer h4 {
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	top:0;
+	margin-top:59.4vh;
+	font-weight: lighter;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 150%;
+	line-height: 1.5
+}
+
+.introContainer button {
+	position: absolute;
+	width: 30vw;
+	margin-left: -15vw;
+	background-color: transparent;
+	border-color: transparent;
+	top: 0;
+	margin-top: 81.2vh;
+	filter: invert(100%);
+}
+
+.github {
+	position: relative;
+	width: 50px;
+	height: 50px;
+}
+
+.linkedin {
+	position: relative;
+	height: 50px;
+	width: 50px;
+}
+
+.github:hover {
+	background-color: rgba(52, 136, 173, 1);
+	border-radius: 10px;
+}
+
+.linkedin:hover {
+	background-color: rgba(52, 136, 173, 1);
+	border-radius: 10px;
+}
+
+.projectsTab {
+	background-image: url("images/Blueprint_Cover.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	top: 0;
+	left: 0;
+	min-width: 1000px;
+	position: relative;
+}
+
+.insideText{
+	position: relative;
+	top:15%;
+	left: 50%;
+	width: 300px;
+	height: 50px;
+	margin-left: -100px;
+}
+
+.buttonContainer{
+	position: relative;
+	width: 400px;
+	height: 70px;
+	border-radius: 35px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 150%;
+	color: white;
+	background-color: #db6233;
+	text-align: center;
+	top: 50%;
+	margin-top: -35px;
+}
+
+@media only screen and (max-height: 750px) {
+
+	.introContainer h1 {
+		top: 63px;
+		margin-top: 0;
+	}
+
+	.introContainer h4 {
+		top:445.5px;
+		margin-top:0;
+	}
+
+	.introContainer button {
+		top: 607px;
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.introContainer h4 {
+		width: 86.6vw;
+		margin-left: -43.3vw;
 	}
 }
